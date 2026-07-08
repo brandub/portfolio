@@ -108,6 +108,29 @@ Brokerage and association administrators manage rosters, branding, and safety re
 
 ---
 
+## EagleView CloudExplorer — Aerial Imagery & Property Intelligence
+
+<img src="assets/eagleview/hero.svg" alt="EagleView CloudExplorer" width="100%">
+
+At **EagleView** I built GIS-powered web applications for aerial imagery analysis and
+property intelligence, on a customized fork of Mapbox.
+
+- **Bridged two geospatial ecosystems** — converted ArcGIS tile data into
+  Mapbox-compatible tiles so existing imagery could drive the new platform.
+- **Modernized a legacy GIS platform** by migrating core services to a scalable cloud
+  architecture, and integrated third-party 3D modeling to extend what enterprise
+  customers could analyze.
+- **Built a life-safety feature** that lets 911 dispatchers determine a caller's
+  elevation *inside* a building during emergency calls.
+- Defined API contracts across product and data science, and implemented **Okta SSO**
+  for third-party integrations.
+
+<img src="assets/eagleview/feature.svg" alt="3D modeling and elevation feature" width="100%">
+
+<sub>Stack: Mapbox · ArcGIS · PostGIS · cloud GIS services · Okta SSO</sub>
+
+---
+
 ## Stack
 
 | Layer | Technology |
@@ -121,7 +144,7 @@ Brokerage and association administrators manage rosters, branding, and safety re
 | Business systems | StaxBill · HubSpot · UserPilot |
 | Infrastructure | AWS · Docker · GitHub Actions · GitLab |
 
-<sub>Some rows reflect my broader stack; trim any that aren't accurate to Tether RE specifically.</sub>
+<sub>My overall stack across Tether RE, EagleView, and other work.</sub>
 
 ---
 
