@@ -1,31 +1,14 @@
-# Tether RE screenshots
+# Tether RE images
 
-The `.svg` files here are placeholders so the top-level README renders cleanly
-before real assets exist. Replace each one and update the `src` in `../../README.md`.
+These are **public marketing assets**, not internal screenshots:
 
-| Placeholder | Target size | What to capture |
-|---|---|---|
-| `hero.svg` | 1280×640 | Wide banner. App on a device, or a marketing shot. |
-| `monitoring.svg` | 760×900 | Phone screenshot: SOS / duress screen or active monitoring session. |
-| `verification.svg` | 760×900 | Phone screenshot: a client lookup result. **Use fake data.** |
-| `productivity.svg` | 760×900 | Phone screenshot: mileage log or expense capture. |
-| `dashboard.svg` | 1280×720 | Browser screenshot of the admin dashboard. |
+| File | Source |
+|---|---|
+| `hero.png` | Product collage from [tetherre.com](https://tetherre.com), with a title overlay added |
+| `monitoring.png` | App Store listing — "SOS Alert & Discreet Alarm" |
+| `verification.png` | App Store listing — "Client Verification" |
+| `productivity.jpg` | tetherre.com — mileage tracker lifestyle shot |
 
-## Before you commit anything
-
-These images go into a **public** repo that will be the first thing people see.
-
-- [ ] No real client names, phone numbers, or addresses
-- [ ] No real agent PII
-- [ ] No live GPS coordinates of an actual home
-- [ ] No API keys, tokens, or internal URLs in any visible console/network pane
-- [ ] No background-check results for a real person
-- [ ] Cleared with Tether RE if the UI isn't already public
-
-Screenshot with seeded demo data, not production.
-
-## Format notes
-
-- Prefer `.png` for UI screenshots. Rename and update the README `src` paths.
-- Keep each file under ~1 MB — GitHub serves these on every page load.
-- 2× resolution then downscale reads sharper on retina displays.
+All are publicly published by Tether RE (their website / App Store listing), so no
+private client data, GPS, or background-check results are exposed. If you'd rather
+swap in your own captures, keep the same filenames and the README picks them up.

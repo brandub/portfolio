@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/tetherre/hero.svg" alt="Tether RE" width="100%">
+<img src="assets/tetherre/hero.png" alt="Tether RE" width="100%">
 
 # Brandon DuBois
 
@@ -34,7 +34,7 @@ As **Head of Engineering**, I took over the entire engineering function as the c
 
 ### Safety — the core of the product
 
-<img src="assets/tetherre/monitoring.svg" alt="24/7 monitoring and SOS" align="right" width="300">
+<img src="assets/tetherre/monitoring.png" alt="24/7 monitoring and SOS" align="right" width="260">
 
 **24/7 live monitoring.** Professional dispatchers watch sessions in real time and can call EMS even when the agent is unable to speak or reach their phone.
 
@@ -58,7 +58,7 @@ As **Head of Engineering**, I took over the entire engineering function as the c
 
 ### Client verification
 
-<img src="assets/tetherre/verification.svg" alt="Client verification" align="right" width="300">
+<img src="assets/tetherre/verification.png" alt="Client verification" align="right" width="260">
 
 Screening happens before the agent ever gets in a car.
 
@@ -75,7 +75,7 @@ Every agent gets 12 free lookups a month.
 
 ### Productivity
 
-<img src="assets/tetherre/productivity.svg" alt="Mileage and expense tracking" align="right" width="300">
+<img src="assets/tetherre/productivity.jpg" alt="Mileage and expense tracking" align="right" width="260">
 
 Safety gets agents to install the app. These features get them to keep it open.
 
@@ -94,9 +94,7 @@ Safety gets agents to install the app. These features get them to keep it open.
 
 ---
 
-### Web dashboard
-
-<img src="assets/tetherre/dashboard.svg" alt="Web dashboard" width="100%">
+### Web dashboard & business systems
 
 Brokerage and association administrators manage rosters, branding, and safety reporting from the browser.
 
@@ -108,12 +106,13 @@ Brokerage and association administrators manage rosters, branding, and safety re
 
 ---
 
-## EagleView CloudExplorer — Aerial Imagery & Property Intelligence
+## EagleView Cloud — Aerial Imagery & Property Intelligence
 
-<img src="assets/eagleview/hero.svg" alt="EagleView CloudExplorer" width="100%">
+<img src="assets/eagleview/hero.jpg" alt="EagleView Cloud aerial imagery" width="100%">
 
-At **EagleView** I built GIS-powered web applications for aerial imagery analysis and
-property intelligence, on a customized fork of Mapbox.
+At **EagleView** I built GIS-powered web applications — including the imagery and
+analysis tooling behind **Cloud Explorer** — for aerial imagery analysis and property
+intelligence, on a customized fork of Mapbox.
 
 - **Bridged two geospatial ecosystems** — converted ArcGIS tile data into
   Mapbox-compatible tiles so existing imagery could drive the new platform.
@@ -125,7 +124,7 @@ property intelligence, on a customized fork of Mapbox.
 - Defined API contracts across product and data science, and implemented **Okta SSO**
   for third-party integrations.
 
-<img src="assets/eagleview/feature.svg" alt="3D modeling and elevation feature" width="100%">
+<img src="assets/eagleview/feature.jpg" alt="EagleView Cloud Explorer — oblique aerial imagery" width="100%">
 
 <sub>Stack: Mapbox · ArcGIS · PostGIS · cloud GIS services · Okta SSO</sub>
 
