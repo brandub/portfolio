@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Screenshot scratch — don't commit raw captures by accident
+*.orig.png
+*-raw.png
