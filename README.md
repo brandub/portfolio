@@ -4,7 +4,7 @@
 
 # Brandon DuBois
 
-**Lead Engineer** — I build safety-critical mobile and real-time systems.
+**Senior Full-Stack Engineer** — AI & agentic systems, GIS & mapping, real estate tech.
 
 Most of my work lives in private repositories. This is a look at what I've shipped.
 
@@ -16,19 +16,19 @@ Most of my work lives in private repositories. This is a look at what I've shipp
 
 > *"Because the most important part of any deal is making it home safe."*
 
-[**tetherre.com**](https://tetherre.com) · iOS · Android · Web
+[**tetherre.com**](https://tetherre.com) · [App Store](https://apps.apple.com/us/app/tether-re/id1671685723) · [Google Play](https://play.google.com/store/apps/details?id=com.tetherre.app) · Flutter · Web
 
 Real estate agents meet strangers alone, in empty houses, on unfamiliar streets. Tether RE is a personal safety platform built for that reality — continuous monitoring, one-touch emergency dispatch, and client screening that runs from first contact through close.
 
-I'm the lead engineer. <!-- TODO: one sentence on scope — e.g. "I own the mobile clients, the real-time location pipeline, and the dispatch integration." -->
+As **Head of Engineering**, I took over the entire engineering function as the company consolidated to a single engineer, and owned the product from a B2C app through a full pivot to B2B SaaS — reworking the codebase, pricing, and go-to-market.
 
-### Reach
+### Traction
 
 | | |
 |---|---|
-| **Bright MLS** | Rolled out to 100,000+ subscribers |
-| **Associations** | Expanded into 5 new REALTOR® association markets in Q1 2026 |
-| **Platforms** | Native iOS, native Android, web dashboard |
+| **Growth** | 0 → $40K MRR · 5,000 users · multiple enterprise contracts |
+| **Recognition** | Won the 2024 T3 Technology Summit Pitch Battle · selected for the NAR REACH Accelerator |
+| **Platforms** | Flutter with native iOS & Android modules · web dashboard |
 
 ---
 
@@ -48,15 +48,11 @@ I'm the lead engineer. <!-- TODO: one sentence on scope — e.g. "I own the mobi
 
 <br clear="right">
 
-> **Engineering notes**
->
-> <!-- TODO: Replace with what you actually built. Some prompts:
->      - How do you stream location continuously without destroying battery life?
->      - What does the false-positive story look like for impact detection?
->      - How does the app stay reliable on bad cell coverage in a basement?
->      - What's the latency budget from SOS press to dispatcher screen?
->      - How do you test a system where a bug means someone doesn't get help?
->      Keep it concrete. Numbers beat adjectives. -->
+> **Engineering notes** — I built the app's real-time location layer: live GPS
+> tracking, proximity-based safety alarms, and group navigation that keeps an
+> agent and their clients synced on the same route in real time. The mapping and
+> routing underneath runs on a custom Flutter + MapLibre navigation package I
+> wrote after migrating off Mapbox — which cut mapping and routing costs ~90%.
 
 ---
 
@@ -75,11 +71,6 @@ Every agent gets 12 free lookups a month.
 
 <br clear="right">
 
-> **Engineering notes**
->
-> <!-- TODO: e.g. data provider integrations, caching/cost strategy, PII handling,
->      compliance constraints (FCRA?), how you keep lookups fast. -->
-
 ---
 
 ### Productivity
@@ -97,10 +88,9 @@ Safety gets agents to install the app. These features get them to keep it open.
 
 <br clear="right">
 
-> **Engineering notes**
->
-> <!-- TODO: e.g. how auto-logging detects drive start/stop, what the AI expense
->      pipeline actually does (OCR? classification? which model?), offline sync. -->
+> **Engineering notes** — I designed and implemented the AI receipt parsing behind
+> expense tracking on AWS Bedrock, so agents can snap a receipt and have the expense
+> logged automatically.
 
 ---
 
@@ -110,33 +100,34 @@ Safety gets agents to install the app. These features get them to keep it open.
 
 Brokerage and association administrators manage rosters, branding, and safety reporting from the browser.
 
-> **Engineering notes**
->
-> <!-- TODO: stack, multi-tenancy model, how enterprise rollout to 100k+ users works. -->
+> **Engineering notes** — Alongside the COO I architected the company's core
+> business systems: StaxBill subscription & enterprise billing with org-hierarchy
+> revenue reporting, HubSpot tooling for account management, and UserPilot for
+> product analytics. I also built AI-powered analytics dashboards that unified
+> billing, user analytics, and revenue into a single view for leadership.
 
 ---
-
-<!-- TODO: Fill this in and uncomment. Delete any row that doesn't apply.
 
 ## Stack
 
 | Layer | Technology |
 |---|---|
-| iOS | |
-| Android | |
-| Web | |
-| Backend | |
-| Data | |
-| Real-time | |
-| Infrastructure | |
+| Mobile | Flutter · Dart · native iOS (Swift) · native Android (Kotlin / Java) |
+| Mapping | MapLibre · Mapbox · custom Flutter navigation & routing package |
+| Web | React · Next.js |
+| Backend | Node.js · NestJS · gRPC · Protocol Buffers |
+| AI | AWS Bedrock · Anthropic API · RAG |
+| Data | PostgreSQL · PostGIS · Firebase / Firestore |
+| Business systems | StaxBill · HubSpot · UserPilot |
+| Infrastructure | AWS · Docker · GitHub Actions · GitLab |
+
+<sub>Some rows reflect my broader stack; trim any that aren't accurate to Tether RE specifically.</sub>
 
 ---
-
--->
 
 ## Elsewhere
 
 - **Email** — brandub@gmail.com
+- **LinkedIn** — [brandoncodes](https://www.linkedin.com/in/brandoncodes/)
 - **GitHub** — [@brandub](https://github.com/brandub)
-<!-- TODO: add LinkedIn — - **LinkedIn** — https://linkedin.com/in/... -->
 
