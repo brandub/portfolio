@@ -131,6 +131,28 @@ sight, and shadow analysis) — on a customized fork of Mapbox.
 
 ---
 
+## QuickSCIP — 5G Deployment & Site Selection
+
+<div align="center">
+<img src="assets/quickscip/hero.png" alt="QuickSCIP — Control Tower web app and Site Selector mobile" width="72%">
+</div>
+
+At **Thirtythree** I built a geospatial data-collection platform for the 5G network
+rollout that maps and identifies cell-tower sites, then turns that field data into the
+drawings used for permitting and construction. It pairs a **Site Selector** mobile app
+with a **Control Tower** web dashboard, and — per Thirtythree — lets crews complete
+deployments up to **10× faster**.
+
+- **Full-stack across mobile, mapping, and data output** — field data capture on
+  mobile, the dynamic mapping layer (street / satellite / 360°), and automated report
+  generation (Word / Excel / PDF), delivered in **React, React Native, Node.js, and Go**.
+- Instant GPS coordinates, automatic address lookups, and distance calculations to cut
+  manual data entry and get sites captured right on the first pass.
+
+<sub>In testing, the platform ran full site assessments in under 10 minutes and processed 1,500 candidate SCIPs in under 10 days. · Stack: React · React Native · Node.js · Go</sub>
+
+---
+
 ## Stack
 
 | Layer | Technology |
