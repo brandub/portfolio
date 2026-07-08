@@ -108,11 +108,12 @@ Brokerage and association administrators manage rosters, branding, and safety re
 
 ## EagleView Cloud — Aerial Imagery & Property Intelligence
 
-<img src="assets/eagleview/hero.jpg" alt="EagleView Cloud aerial imagery" width="100%">
+<img src="assets/eagleview/hero.jpg" alt="EagleView 3D — analyze digital twins from the desktop" width="100%">
 
-At **EagleView** I built GIS-powered web applications — including the imagery and
-analysis tooling behind **Cloud Explorer** — for aerial imagery analysis and property
-intelligence, on a customized fork of Mapbox.
+At **EagleView** I built GIS-powered web applications across the imagery platform —
+both **Cloud Explorer** (viewing, measurement, and analysis of high-resolution aerial
+imagery) and **EagleView 3D** (digital-twin mesh models for 3D measurement, line of
+sight, and shadow analysis) — on a customized fork of Mapbox.
 
 - **Bridged two geospatial ecosystems** — converted ArcGIS tile data into
   Mapbox-compatible tiles so existing imagery could drive the new platform.
@@ -124,7 +125,7 @@ intelligence, on a customized fork of Mapbox.
 - Defined API contracts across product and data science, and implemented **Okta SSO**
   for third-party integrations.
 
-<img src="assets/eagleview/feature.jpg" alt="EagleView Cloud Explorer — oblique aerial imagery" width="100%">
+<img src="assets/eagleview/feature.jpg" alt="EagleView Cloud Explorer — imagery viewing and measurement tools" width="100%">
 
 <sub>Stack: Mapbox · ArcGIS · PostGIS · cloud GIS services · Okta SSO</sub>
 
